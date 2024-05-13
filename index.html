@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Modal Window</title>
+  </head>
+  <body>
+    <div class="buttons">
+      <button class="btn" id="openModalBtn-1" type="button">
+        Show modal 1
+      </button>
+      <button class="btn" id="openModalBtn-2" type="button">
+        Show modal 2
+      </button>
+      <button class="btn" id="openModalBtn-3" type="button">
+        Show modal 3
+      </button>
+    </div>
+
+    <div class="modal-box" id="modalContainer">
+      <!-- Modal Content -->
+      <div class="modal-content">
+        <div class="modal-content__inner">
+          <h2>I'm a modal window 😍</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            temporibus perferendis consequatur rerum quidem nostrum aliquid
+            voluptatibus nisi saepe neque praesentium nulla adipisci, placeat
+            sint aliquam sit vitae eum iste labore quas! Deleniti culpa vero
+            recusandae ducimus rerum eligendi doloremque necessitatibus nemo,
+            quibusdam non perspiciatis. Iure repellendus eius quae dolores?
+          </p>
+        </div>
+        <span class="close" id="closeModalBtn">&times;</span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
